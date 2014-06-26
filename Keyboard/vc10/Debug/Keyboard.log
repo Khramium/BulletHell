@@ -1,0 +1,68 @@
+﻿Build started 6/26/2014 2:31:28 PM.
+     1>Project "C:\Users\student\Desktop\MoiseT\Keyboard\vc10\Keyboard.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /I..\..\..\..\Documents\cinder_0.8.5_vc2012\cinder_0.8.5_vc2012\include /I..\..\..\..\Documents\cinder_0.8.5_vc2012\cinder_0.8.5_vc2012\boost /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D NOMINMAX /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\KeyboardApp.cpp
+         KeyboardApp.cpp
+     1>c:\users\student\desktop\moiset\keyboard\src\keyboardapp.cpp(110): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\student\desktop\moiset\keyboard\src\keyboardapp.cpp(110): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\student\desktop\moiset\keyboard\src\keyboardapp.cpp(113): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\student\desktop\moiset\keyboard\src\keyboardapp.cpp(113): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\student\desktop\moiset\keyboard\src\keyboardapp.cpp(113): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\student\desktop\moiset\keyboard\src\keyboardapp.cpp(113): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\student\Desktop\MoiseT\Keyboard\vc10\Debug\Keyboard.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\Documents\cinder_0.8.5_vc2012\cinder_0.8.5_vc2012\lib /LIBPATH:..\..\..\..\Documents\cinder_0.8.5_vc2012\cinder_0.8.5_vc2012\lib\msw cinder_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:LIBCPMT /MANIFEST /ManifestFile:"Debug\Keyboard.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\student\Desktop\MoiseT\Keyboard\vc10\Debug\Keyboard.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\student\Desktop\MoiseT\Keyboard\vc10\Debug\Keyboard.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\Keyboard.exe.embed.manifest.res
+         Debug\KeyboardApp.obj
+     1>cinder_d.lib(gl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Renderer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(App.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(AppBasic.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Window.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Rect.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Exception.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Area.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Path2D.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Font.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(VBO.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Camera.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Texture.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Text.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Triangulate.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Surface.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(AppImplMswRendererGl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(AppImplMswRendererGdi.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Flip.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(DataSource.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Display.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Timer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Timeline.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(AppImplMsw.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Utilities.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(AppImplMswBasic.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(BSpline.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(CinderMath.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Shape2d.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Stream.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(ImageIo.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(CinderMswGdiPlus.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Unicode.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(TriMesh.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Channel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Fill.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(CinderMsw.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Url.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(TimelineItem.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Buffer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(KeyEvent.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(DataTarget.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(ImageSourceFileWic.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(ImageTargetFileWic.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(AxisAlignedBox.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(UrlImplWinInet.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>cinder_d.lib(Ray.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in KeyboardApp.obj
+     1>LINK : fatal error LNK1104: cannot open file 'libboost_chrono-vc100-mt-sgd-1_53.lib'
+     1>Done Building Project "C:\Users\student\Desktop\MoiseT\Keyboard\vc10\Keyboard.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.25
